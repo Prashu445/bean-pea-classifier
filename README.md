@@ -31,3 +31,35 @@ bean-pea-classifier/
 ├── app.py                 # Main application script (GUI + Classifier)
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
+
+
+⚙️ Detailed Installation & Running Guide
+Follow these step-by-step instructions to set up and run the project locally on your system:
+
+Step 1: Clone the Repository
+
+git clone [https://github.com/Prashu445/bean-pea-classifier.git](https://github.com/Prashu445/bean-pea-classifier.git)
+cd bean-pea-classifier
+
+Step 2: Set Up a Virtual Environment (Recommended)
+
+For Windows:   
+python -m venv venv
+venv\Scripts\activate
+
+For macOS / Linux:   
+
+python3 -m venv venv
+source venv/bin/activate
+
+Step 3: Install Dependencies   
+Install all the required Python libraries specified in the requirements.txt file:   
+
+pip install -r requirements.txt
+
+Step 4: Verify Dataset Structure
+Ensure that your dataset/ folder is placed in the root directory and contains properly organized subfolders for each bean and pea variety containing training images.
+
+Step 5: Run the Application
+
+python app.py
